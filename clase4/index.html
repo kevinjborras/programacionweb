@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AJAX</title>
+        <!--<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script> -->
+
+        <script src="js/jquery-3.6.3.js" ></script>
+        <script src="js/index.js"></script>
+    </head>
+
+    <body>
+        <h2>Calculo del area del cuadrado</h2>
+
+
+        <label for="baseid">Base:</label>
+        <input type="number" name="base" id="baseid"><br>
+        <label for="alturaid">Altura:</label>
+        <input type="number" name="altura" id="alturaid"><br>
+        <br>
+        <button onclick="calcular($('#baseid').val(), $('#alturaid').val())">Calcular</button>
+
+
+        <div id="resp"></div>
+
+    </body>
+
+</html>
+
